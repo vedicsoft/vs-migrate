@@ -17,7 +17,7 @@ migrate -url mysql://user@tcp(host:port)/database -path ./db/migrations up
 migrate help # for more info
 ```
 
-See full [DSN (Data Source Name) documentation](https://github.com/go-sql-driver/mysql/#dsn-data-source-name).
+See full [DSN (Data Source Name) documentation](https://github.com/vedicsoft/mysql/#dsn-data-source-name).
 
 ## Authors
 

@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/go-sql-driver/mysql"
+	"github.com/vedicsoft/mysql"
 	"github.com/vedicsoft/vs-migrate/driver"
 	"github.com/vedicsoft/vs-migrate/file"
 	"github.com/vedicsoft/vs-migrate/migrate/direction"
