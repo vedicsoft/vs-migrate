@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/mattes/migrate/driver"
-	"github.com/mattes/migrate/file"
+	"github.com/vedicsoft/vs-migrate/driver"
+	"github.com/vedicsoft/vs-migrate/file"
 )
 
 type MethodNotFoundError string

@@ -8,9 +8,9 @@ import (
 
 	// Ensure imports for each driver we wish to test
 
-	_ "github.com/mattes/migrate/driver/postgres"
-	_ "github.com/mattes/migrate/driver/ql"
-	_ "github.com/mattes/migrate/driver/sqlite3"
+	_ "github.com/vedicsoft/vs-migrate/driver/postgres"
+	_ "github.com/vedicsoft/vs-migrate/driver/ql"
+	_ "github.com/vedicsoft/vs-migrate/driver/sqlite3"
 )
 
 // Add Driver URLs here to test basic Up, Down, .. functions.

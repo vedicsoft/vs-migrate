@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mattes/migrate/driver"
-	"github.com/mattes/migrate/file"
-	"github.com/mattes/migrate/migrate/direction"
-	pipep "github.com/mattes/migrate/pipe"
+	"github.com/vedicsoft/vs-migrate/driver"
+	"github.com/vedicsoft/vs-migrate/file"
+	"github.com/vedicsoft/vs-migrate/migrate/direction"
+	pipep "github.com/vedicsoft/vs-migrate/pipe"
 )
 
 // Up applies all available migrations

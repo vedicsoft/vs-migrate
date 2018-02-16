@@ -1,6 +1,6 @@
 // Package main is the CLI.
 // You can use the CLI via Terminal.
-// import "github.com/mattes/migrate/migrate" for usage within Go.
+// import "github.com/vedicsoft/vs-migrate/migrate" for usage within Go.
 package main
 
 import (
@@ -11,18 +11,18 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	_ "github.com/mattes/migrate/driver/bash"
-	_ "github.com/mattes/migrate/driver/cassandra"
-	_ "github.com/mattes/migrate/driver/crate"
-	_ "github.com/mattes/migrate/driver/mysql"
-	_ "github.com/mattes/migrate/driver/neo4j"
-	_ "github.com/mattes/migrate/driver/postgres"
-	_ "github.com/mattes/migrate/driver/ql"
-	_ "github.com/mattes/migrate/driver/sqlite3"
-	"github.com/mattes/migrate/file"
-	"github.com/mattes/migrate/migrate"
-	"github.com/mattes/migrate/migrate/direction"
-	pipep "github.com/mattes/migrate/pipe"
+	_ "github.com/vedicsoft/vs-migrate/driver/bash"
+	_ "github.com/vedicsoft/vs-migrate/driver/cassandra"
+	_ "github.com/vedicsoft/vs-migrate/driver/crate"
+	_ "github.com/vedicsoft/vs-migrate/driver/mysql"
+	_ "github.com/vedicsoft/vs-migrate/driver/neo4j"
+	_ "github.com/vedicsoft/vs-migrate/driver/postgres"
+	_ "github.com/vedicsoft/vs-migrate/driver/ql"
+	_ "github.com/vedicsoft/vs-migrate/driver/sqlite3"
+	"github.com/vedicsoft/vs-migrate/file"
+	"github.com/vedicsoft/vs-migrate/migrate"
+	"github.com/vedicsoft/vs-migrate/migrate/direction"
+	pipep "github.com/vedicsoft/vs-migrate/pipe"
 )
 
 var url = flag.String("url", os.Getenv("MIGRATE_URL"), "")

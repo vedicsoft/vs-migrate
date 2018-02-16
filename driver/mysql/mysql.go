@@ -12,9 +12,9 @@ import (
 	"strings"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/mattes/migrate/driver"
-	"github.com/mattes/migrate/file"
-	"github.com/mattes/migrate/migrate/direction"
+	"github.com/vedicsoft/vs-migrate/driver"
+	"github.com/vedicsoft/vs-migrate/file"
+	"github.com/vedicsoft/vs-migrate/migrate/direction"
 )
 
 type Driver struct {
